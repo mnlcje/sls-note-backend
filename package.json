@@ -1,0 +1,19 @@
+{
+  "name": "sls-notes-backend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "aws-sdk": "^2.668.0",
+    "moment": "^2.25.1",
+    "serverless-offline": "^6.1.4",
+    "underscore": "^1.10.2",
+    "uuid": "^8.0.0"
+  }
+}

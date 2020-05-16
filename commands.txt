@@ -1,0 +1,35 @@
+serverless create -t aws-node.js -p sls-notes-backend
+
+npm init -y  ( -y : to accept the defaults)
+
+npm install --save aws-sdk moment underscore uuid
+
+serverless deplpoy
+
+git init
+
+git checkout -b master
+
+git checkout -b dev
+
+git add .
+
+git commit -am "first Commit"
+
+git remote add origin https://git-codecommit.us-east-1.amazonaws.com/v1/repos/sls-notes-backend-repo
+
+git remote -v
+
+git push --set-upstream origin dev
+
+git checkout master
+
+git push --set-upstream origin master (For subsequent push , just say git push)
+
+get merge dev  (To merge changes in dev into master local branch)
+
+serverless offline
+
+
+
+
